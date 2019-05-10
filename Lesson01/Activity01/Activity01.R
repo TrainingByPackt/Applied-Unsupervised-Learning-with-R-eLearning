@@ -40,3 +40,4 @@ plot(iris_data$Sepal.Length,iris_data$Sepal.Width,col=iris_data$color)
 points(k1[1],k1[2],pch=4)
 points(k2[1],k2[2],pch=5)
 points(k3[1],k3[2],pch=6)
+
