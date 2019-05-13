@@ -1,6 +1,6 @@
-install.packages("klaR")
+# install.packages("klaR")
 library(klaR)
-ms<-read.csv('mushrooms.csv')
+ms<-read.csv('./Lesson02/Activity05/mushrooms.csv')
 dim(ms)
 summary.data.frame(ms)
 ms_k<-ms[,2:23]

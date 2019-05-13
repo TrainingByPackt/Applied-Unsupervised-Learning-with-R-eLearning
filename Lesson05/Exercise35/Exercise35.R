@@ -1,6 +1,7 @@
-install.packages('psych')
-install.packages('GPArotation')
-install.packages('qgraph')
+# use it only the first time if library is not installed already
+# install.packages('psych')
+# install.packages('GPArotation')
+# install.packages('qgraph')
 
 library(psych)
 library(GPArotation)

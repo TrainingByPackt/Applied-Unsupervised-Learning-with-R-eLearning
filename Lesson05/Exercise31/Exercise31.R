@@ -1,6 +1,6 @@
-install.packages('imager')
+# install.packages('imager')
 library('imager')
-filepath<-'alamo.jpg'
+filepath<-'./Lesson05/Exercise31/alamo.jpg'
 im <- imager::load.image(file =filepath) 
 im<-imager::rm.alpha(im)
 im<-imager::grayscale(im)

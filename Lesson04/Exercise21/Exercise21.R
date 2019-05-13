@@ -1,4 +1,4 @@
-wine<-read.csv('wine.csv')
+wine<-read.csv('./Lesson04/Exercise21/wine.csv')
 plot(wine$flavanoid,wine$phenol)
 
 plot(wine$flavanoid,wine$phenol)

@@ -1,6 +1,10 @@
-install.packages('imager')
+# use it only the first time if library is not installed already
+# install.packages('imager')
 library('imager')
-filepath<-'borges.jpg'
+
+source("./Lesson05/Activity11/Functions.R")
+
+filepath<-'./Lesson05/Activity11/borges.jpg'
 im <- imager::load.image(file =filepath) 
 im<-imager::rm.alpha(im)
 im<-imager::grayscale(im)
@@ -15,7 +19,7 @@ for (i in 1:10) {
 borges_signature<-get_signature(matrix)
 borges_signature
 
-filepath<-'borges.jpg'
+filepath<-'./Lesson05/Activity11/borges.jpg'
 im <- imager::load.image(file =filepath) 
 im<-imager::rm.alpha(im)
 im<-imager::grayscale(im)

@@ -1,6 +1,9 @@
-install.packages('imager')
+# use it only the first time if library is not installed already
+# install.packages('imager')
 library('imager')
-filepath<-'alamo_marked.jpg'
+source("./Lesson05/Activity11/Functions.R")
+
+filepath<-'./Lesson05/Activity12/alamo_marked.jpg'
 im <- imager::load.image(file =filepath) 
 
 im<-imager::rm.alpha(im)
@@ -18,5 +21,6 @@ for (i in 1:10) {
 
 watermarked_signature<-get_signature(matrix)
 watermarked_signature
+
 comparison<-mean(abs(watermarked_signature-building_signature))
 comparison

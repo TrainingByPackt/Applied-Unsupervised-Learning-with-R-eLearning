@@ -1,5 +1,5 @@
 #Exercise22
-filepath='census.csv'
+filepath='./Lesson04/Exercise22-Exercise25/census.csv'
 mkt<-read.csv(filepath,stringsAsFactors=FALSE,header=FALSE,sep=',')
 
 head(mkt)
@@ -47,6 +47,8 @@ mkt$high_income<-1*(mkt$V14==" >50K")
 
 mktdummies<-mkt[,15:ncol(mkt)]
 mktdummies
+
+print(colMeans(mktdummies, na.rm=T))
 
 #Exercise23
 support_thresh<-0.1

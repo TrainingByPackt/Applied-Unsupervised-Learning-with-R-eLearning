@@ -1,4 +1,7 @@
+# install.packages("dbscan")
 library(factoextra)
+library(dbscan)
+
 data(multishapes)
 ms<-multishapes[,1:2]
 plot(ms)

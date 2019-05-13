@@ -1,5 +1,6 @@
-iris_data<-iris[,1:2]
 library(cluster)
+
+iris_data<-iris[,1:2]
 km.res<-kmeans(iris_data,3)
 pair_dis<-daisy(iris_data)
 sc<-silhouette(km.res$cluster, pair_dis)

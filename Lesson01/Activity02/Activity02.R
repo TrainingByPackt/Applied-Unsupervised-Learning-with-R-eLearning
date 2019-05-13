@@ -1,8 +1,8 @@
-ws<-read.csv('wholesale_customers_data.csv')
+library(factoextra)
+
+ws<-read.csv('./Lesson01/Activity02/wholesale_customers_data.csv')
 
 ws<-ws[5:6]
-
-library(factoextra)
 
 clus<-kmeans(ws,2)
 

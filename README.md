@@ -4,27 +4,28 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/TrainingByPackt/Applied-Unsupervised-Learning-with-R-eLearning/pulls)
 
 # Applied Unsupervised Learning with R eLearning
-C++ is a unique language for its ability to write high-level abstractions while retaining full control of the hardware, performances, and maintainability. Discover its peculiar features points with this course and lay a solid foundation on modern C++ knowledge, learning the basics of the language and then stepping up to some concrete real-world examples. Become part of a community that has never been more active than now, and start mastering the language which supports multi-billion industries across the world.
+Starting with the basics, Applied Unsupervised Learning with R explains clustering 
+methods, distribution analysis, data encoders, and all the features of R that enable 
+you to understand your data better and get answers to all your business questions.
 
 ## What you will learn
-* Use C++ compilation model and syntaxes
-* Apply the best practices for writing functions and classes
-* Write safe, generic, and efficient code with templates
-* Explore the containers that C++ standard offers
-* Use the new paradigms introduced with C++11, C++14, and C++17
-* Familiarize with the core language features of C++
-* Abstract complex problems using Object Oriented Programming in C++
+*  Implement clustering methods such as k-means, agglomerative, and divisive 
+clustering
+* Write code in R to analyze market segmentation and consumer behavior
+* Estimate distributions and probabilities of different outcomes
+* Implement dimension reduction using principal component analysis
+* Apply anomaly detection methods to identify fraud
+* Design algorithms with R and learn how to edit or improve code
 
 ### Hardware Requirements
 For an optimal student experience, we recommend the following hardware configuration:
-* **Processor**: Intel Core i3 or equivalent
-* **Memory**: 40GB RAM
-* **Storage**: 10 GB available space
+* **Processor**: Intel Core i5 or equivalent
+* **Memory**: 4GB RAM
+* **Storage**: 5 GB available space
 * An Internet connection
 
 ### Software Requirements
 You’ll also need the following software installed in advance:
-* **OS**: Windows 7, Mac OS X 10.8 or a recent GNU/Linux distribution
-* **Browser**: Google Chrome, Latest Version
-* **Compiler**: LLVM clang, Latest Version
-VSCode IDE, Latest Version
+* **OS**: Windows 7 SP1 64-bit, Windows 8.1 64-bit or Windows 10 64-bit, Linux 
+(Ubuntu, Debian, Red Hat, or Suse), or the latest version of OS X
+* R (3.0.0 or more recent, available for free at https://cran.r-project.org/)

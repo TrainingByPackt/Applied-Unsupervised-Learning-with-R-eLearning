@@ -1,6 +1,8 @@
-sd<-read.delim('seeds_dataset.txt')
-sd_c<-sd[,1:7]
 library(cluster)
+
+sd<-read.delim('./Lesson02/Activity07/seeds_dataset.txt')
+sd_c<-sd[,1:7]
+
 h.res<-hclust(dist(sd_c),"ave")
 plot(h.res)
 

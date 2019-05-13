@@ -1,4 +1,4 @@
-filename<-'heightsweights.csv'
+filename<-'./Lesson06/Exercise41-42/heightsweights.csv'
 raw<-read.csv(filename, stringsAsFactors=FALSE)
 names(raw)<-c('index','height','weight')
 plot(raw$height,raw$weight)

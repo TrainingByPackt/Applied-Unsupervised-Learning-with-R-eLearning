@@ -1,4 +1,6 @@
-ws<-read.csv('wholesale_customers_data.csv')
+library(factoextra)
+
+ws<-read.csv('./Lesson01/Activity04/wholesale_customers_data.csv')
 ws<-ws[5:6]
 fviz_nbclust(ws, kmeans, method = "silhouette",k.max=20)
 
