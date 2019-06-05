@@ -1,19 +1,23 @@
 library(cluster)
 
-sd<-read.delim('./Lesson02/Activity07/seeds_dataset.txt')
-sd_c<-sd[,1:7]
-
-h.res<-hclust(dist(sd_c),"ave")
+sd <- read.delim('./Lesson02/Activity07/seeds_dataset.txt')
+sd_c <- sd[, 1:7]
+library(cluster)
+h.res <- hclust(dist(sd_c), "ave")
 plot(h.res)
 
 memb <- cutree(h.res, k = 3)
-results<-table(sd$X1,memb)
+results <- table(sd$X1, memb)
 results
-
 
 memb <- cutree(h.res, k = 3)
-results<-table(sd$X1,memb)
+results <- table(sd$X1, memb)
 results
 
+# perform divisive clustering
+d.res <- diana(sd_c, metric = "euclidean")
+plot(d.res)
 
-
+memb <- cutree(h.res, k = 3)
+results <- table(sd$X1, memb)
+results
